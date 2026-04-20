@@ -1,0 +1,11 @@
+# Cálculo del trabajo mecánico (W = F * d)
+f = 0.0
+d = 0.0
+w = 0.0
+print("Cálculo del trabajo mecánico (W = F * d)")
+print("====================================")
+f = float(input("Ingresa la fuerza en Newtons: "))
+d = float(input("Ingresa la distancia en metros: "))
+w = f * d
+print("====================================")
+print("W es igual a:", w, "Joules")

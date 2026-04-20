@@ -1,0 +1,8 @@
+#Cálculo de energía relativa (E = m * c**2)
+c = 299792458
+print("Cálculo de energía relativa (E = m * c**2)")
+print("-------------------------------------")
+m = float(input("Ingresa la masa en Kg: "))
+e = m * (c ** 2)
+print("-------------------------------------")
+print("E es igual a:", e, "julios")
