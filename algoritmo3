@@ -1,0 +1,10 @@
+ec = 0.0
+m = 0.0
+v = 0.0
+print("Cálculo de energía cinética (ec = 0.5 * m * (v**2))")
+print("====================================")
+m = float(input("Ingresa la masa en kg: "))
+v = float(input("Ingresa la velocidad en m/s: "))
+ec = 0.5 * m * (v ** 2)
+print("====================================")
+print("Ec es igual a:", ec, "julios")
